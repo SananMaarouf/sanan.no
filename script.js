@@ -16,7 +16,17 @@ typewriter
   .pauseFor(2000)
   .start();
 
-//Navbar 
+
+window.addEventListener('click', function(event) {
+  const burger = this.document.getElementById('borgir');
+  const navbar = this.document.getElementById('navbarBasicExample');
+  const navbody = this.document.getElementById('nav');
+  if(event.target != burger){
+    navbar.classList.remove('is-active')
+    burger.classList.remove('is-active')
+  }
+})
+
 document.addEventListener('DOMContentLoaded', () => {
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -35,7 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+  
 });
+
 
 //Scrollbar indicator
 window.onscroll = function() {myFunction()};
