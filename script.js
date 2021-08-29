@@ -20,7 +20,6 @@ typewriter
 window.addEventListener('click', function(event) {
   const burger = this.document.getElementById('borgir');
   const navbar = this.document.getElementById('navbarBasicExample');
-  const navbody = this.document.getElementById('nav');
   if(event.target != burger){
     navbar.classList.remove('is-active')
     burger.classList.remove('is-active')
