@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/06259e76b5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../node_modules/bulma/css/bulma.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Greentalk</title>
+</head>
+<body>
+  <!-- Navbar -->
+    <header>
+        <nav class="nav navbar is-fixed-top" role="navigation" aria-label="main navigation">
+          <section class="nav navbar-brand">
+            <a class="navbar-item" href="../index.html#hjem">
+              <!--<i class="fa fa-home" aria-hidden="true"></i>-->
+              <p>Home</p>
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+              data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </section>
+    
+          <section id="navbarBasicExample" class="nav navbar-menu">
+            <section class="navbar-start">
+              <a class="navbar-item" href="../index.html#om-meg">
+                About me
+              </a>
+              <a class="navbar-item" href="../index.html#prosjekter">
+                Projects
+              </a>
+              <a class="navbar-item" href="#kontakt">
+                Contact
+              </a>
+              <a class="navbar-item" href="../files/CV Sanan.docx">
+                Resume
+              </a>
+            </section>
+            <section class="navbar-end ">
+              <section class="navbar-item ">
+                <section class="buttons is-centered">
+                  <a class="button" href="https://www.linkedin.com/in/sanan-maarouf-4544ab1a7/">
+                    Linked<i class="fab fa-linkedin"></i>
+                  </a>
+                  <a class="button" href="https://github.com/SananMaarouf">
+                    <i class="fab fa-github"></i>
+                    Github
+                  </a>
+                </section>
+              </section>
+            </section>
+          </section>
+          <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!--Intro -->
+        <section id="hjem" class="hero is-fullheight-with-navbar">
+          <section class="container mt-5 mx-5" >
+            <section class="columns">
+                <section class="column is-align-self-center">
+                    <p class="title">If you love our planet, you'll love <strong>Greentalk</strong>
+                    </p>
+                </section>
+                <section class="column is-align-self-center pt-5">
+                    <figure class="image" >
+                        <img src="../images/Greentalk desktop.jpg" alt="Greentalk" >
+                        </figure>
+                      <figcaption><p class="subtitle is-size-7 has-text-centered">Screenshot of final product</p></figcaption>
+                </section>
+            </section>
+          </section>
+          <section class="hero-foot is-align-self-center mb-6">
+            <section class="container">
+              <figure class="image is-64x64">
+                <img src="../images/Scroll.gif" alt="scroll gif">
+              </figure>
+            </section>
+          </section>
+        </section>
+        <!--History -->
+        <div data-aos="fade-up">
+          <section class="container box mt-5">
+            <section class="content">
+              <h1 class="has-text-centered">
+                History
+              </h1>
+              <p>
+                In our second year of university we were tasked with creating a CRUD application for our semester assignment.<br>
+                After some time debating what kind of site and what it should be about, we landed on a forum for envrionmentalists<br>
+                since global warming, climate change and pollution becoming bigger problems, we wanted to create a space where likeminded people<br>
+                could communicate and start events to meet up
+              </p>
+  
+              <p>
+                This project was made in collaboration with:
+              </p>
+              <ul class="">
+                <li>Stian Flatset Tønning</li>
+                <li>Sigve Eilertsen</li>
+                <li>Erlend Hollund</li>
+                <li>Hanna Deanna Castillo Singueo</li>
+                <li>Mikkel Mohaugen</li>
+              </ul>
+              <p>You can check out the source code on <a href="https://github.com/SananMaarouf/Greentalk"><button class="button" style="height: 1.5em;">Github</button></a></p>
+            </section>
+          </section>
+        </div>
+        <!--Technologies used-->
+        <div data-aos="fade-up">
+          <section class="container box mt-5">
+            <section class="content">
+              <h1 class="has-text-centered"> 
+                Technologies used
+              </h1>
+              <section class="columns">
+                <div class="column">
+                  <h3>
+                    Design
+                  </h3>
+                  <p>
+                    For prototyping and design we used Adobe XD
+                  </p>
+                  <h3>
+                    Front-end
+                  </h3>
+                  <p>
+                    We used HTML, CSS, JavaScript and PHP
+                  </p>
+                  <h3>
+                    Back-end
+                  </h3>
+                  <p>We used MySQL for the database</p>
+                </div>
+                <div class="column">
+                  <div data-aos="fade-left">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_yu6lxtlw.json"  
+                                   background="#FFFFFF"  
+                                   speed="1"  
+                                   style="width: 300px; height: 300px; margin: auto;"  
+                                   loop  
+                                   autoplay>
+                      </lottie-player>
+                  </div>
+                </div>
+              </section>
+            </section>
+          </section>
+        </div>
+        <script>AOS.init();</script> 
+    </main>
+    <!-- Footer -->
+    <footer id="kontakt" class="footer columns is-mobile">
+    <section class="column is-three-fifths is-offset-one-fifth">
+        <section class="section has-text-centered ">
+        <div class="container ">
+            <h1 class="title ">Want to get in touch?</h1>
+            <h2 class="subtitle ">Send me an email and i'll answer you as soon as possible</h2>
+            <a class="button" href="mailto:sanan.adnan97@gmail.com">
+            Email<i class="fas fa-envelope-square"></i>
+            </a>
+        </div>
+        </section>
+    </section>
+    <script src="../script.js"></script>
+    </footer>
+</body>
+</html>

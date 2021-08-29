@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bulma": "^0.9.3",
+    "typewriter-effect": "^2.18.0"
+  }
+}
