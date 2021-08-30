@@ -6,12 +6,12 @@ var typewriter = new Typewriter(app, {
 });
 typewriter
   .pauseFor(2500)
-  .typeString('<strong>Front-End</strong>')
+  .typeString('I do <strong>Front-End</strong>')
   .pauseFor(1000)
   .deleteChars(9)
   .typeString('<strong>Full stack</strong>')
   .pauseFor(1000)
-  .deleteChars(10)
+  .deleteChars(16)
   .typeString('and <strong>App development</strong>')
   .pauseFor(2000)
   .start();
