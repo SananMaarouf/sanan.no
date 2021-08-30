@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/06259e76b5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link href="../css/mystyles.css"rel="stylesheet">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -20,7 +20,7 @@
               <!--<i class="fa fa-home" aria-hidden="true"></i>-->
               <p>Home</p>
             </a>
-            <a role="button" class="navbar-burger burger" id="borgir" aria-label="menu" aria-expanded="false"
+            <a role="button" class="navbar-burger burger ml-auto" id="borgir" aria-label="menu" aria-expanded="false"
               data-target="navbarBasicExample">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
@@ -81,9 +81,14 @@
           </section>
           <section class="hero-foot is-align-self-center mb-6">
             <section class="container">
-              <figure class="image is-64x64">
-                <img src="../images/Scroll.gif" alt="scroll gif">
-              </figure>
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+              <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_EdAmna.json"  
+                              background="transparent"  
+                              speed="1"  
+                              style="width: 100px; height: 100px;"  
+                              loop  
+                              autoplay>
+              </lottie-player>
             </section>
           </section>
         </section>
@@ -111,7 +116,7 @@
                 <li>Hanna Deanna Castillo Singueo</li>
                 <li>Mikkel Mohaugen</li>
               </ul>
-              <p>You can check out the source code on <a href="https://github.com/SananMaarouf/Greentalk"><button class="button" style="height: 1.5em;">Github</button></a></p>
+              <p>You can check out the source code on <a href="https://github.com/SananMaarouf/Greentalk"><button class="button is-primary" style="height: 1.5em;">Github</button></a></p>
             </section>
           </section>
         </div>
@@ -145,7 +150,7 @@
                   <div data-aos="fade-up">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                     <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_yu6lxtlw.json"  
-                                   background="#FFFFFF"  
+                                   background="transparent"  
                                    speed="1"  
                                    style="width: 300px; height: 300px; margin: auto;"  
                                    loop  
@@ -160,13 +165,13 @@
         <script>AOS.init();</script> 
     </main>
     <!-- Footer -->
-    <footer id="kontakt" class="footer">
+    <footer id="kontakt" class="footer  has-background-dark">
       <section class="section has-text-centered ">
         <div class="container ">
-          <h1 class="title ">Want to get in touch?</h1>
-          <h2 class="subtitle ">Send me an email and i'll answer you as soon as possible</h2>
+          <h1 class="title has-text-white">Want to get in touch?</h1>
+          <h2 class="subtitle has-text-white">Send me an email and i'll answer you as soon as possible</h2>
           <a class="button" href="mailto:sanan.adnan97@gmail.com">
-            Email<i class="fas fa-envelope-square"></i>
+            Email<i class="fas fa-envelope-square ml-2"></i>
           </a>
         </div>
       </section>
