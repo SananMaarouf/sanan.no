@@ -44,11 +44,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-  
+
 });
 
 
-//Scrollbar indicator
+// Scrollbar indicator
 window.onscroll = function() {myFunction()};
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
@@ -57,3 +57,14 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 };
 
+// Age counter
+const birthDate = new Date('April 1, 1997');
+const today = new Date();
+
+const ageInMilliseconds = today.getTime() - birthDate.getTime();
+const ageInYears = Math.floor(ageInMilliseconds / 31556952000);
+
+const ageText = `I am a ${ageInYears} year old full stack developer based in Oslo, Norway.<br>`;
+
+const ageElement = document.getElementById('age');
+ageElement.innerHTML = ageText;
